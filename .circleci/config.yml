@@ -16,9 +16,6 @@ jobs:
 
     working_directory: ~/repo
     
-    machine:
-        environment:
-            ANDROID_HOME: /usr/local/android-sdk-linux
     environment:
       # Customize the JVM maximum heap limit
       JVM_OPTS: -Xmx3200m
